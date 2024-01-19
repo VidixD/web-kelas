@@ -212,7 +212,7 @@ body {
 
 #AngkaGradientIjo {
 	-webkit-text-stroke: 1px #d41a773d; /* Menggunakan efek outline teks dengan warna hitam */
-	background: linear-gradient(to top right, #fab6e7, #d41a77 80%);
+	background: linear-gradient(to top right, #81727d, #1da83b 80%);
 	filter: brightness(1.2);
 	-webkit-background-clip: text;
 	background-clip: text;
