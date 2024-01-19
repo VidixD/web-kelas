@@ -210,6 +210,15 @@ body {
 	text-shadow: #d41a77 2px 0 20px;
 }
 
+#AngkaGradientIjo {
+	-webkit-text-stroke: 1px #d41a773d; /* Menggunakan efek outline teks dengan warna hitam */
+	background: linear-gradient(to top right, #fab6e7, #d41a77 80%);
+	filter: brightness(1.2);
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+	text-shadow: #157c40 2px 0 20px;
+}
 .slick-slide {
 	padding: 0 10px;
 	box-sizing: border-box;
