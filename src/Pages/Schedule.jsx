@@ -81,7 +81,7 @@ const Schedule = () => {
                 <TodayComponent />
               </React.Suspense>
             ) : (
-              <p className="opacity-50">Tidak Ada Jadwal Hari Ini</p>
+              <p className="opacity-50">Wayae prei boss, Ra ono jadwal</p>
             )}
           </div>
         </div>
@@ -94,7 +94,7 @@ const Schedule = () => {
           data-aos="fade-up"
           data-aos-duration="500"
         >
-          Picket
+          Piket
         </div>
         {currentPiketNames && currentPiketNames.length > 0 ? (
           currentPiketNames.map((piketName, index) => (
@@ -110,7 +110,7 @@ const Schedule = () => {
             </div>
           ))
         ) : (
-          <p className="opacity-50">Maaf Sistem Jadwal Sedang ada perbaikan</p>
+          <p className="opacity-50">Ra pernah Piket :D</p>
         )}
       </div>
     </>
