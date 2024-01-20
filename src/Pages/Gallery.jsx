@@ -150,7 +150,7 @@ const Carousel = () => {
 							style={{ maxWidth: "100%", maxHeight: "100vh" }}
 						/>
 					</div>
-				</animated.div>
+				</animated.div> 
 			</Modal>
 		</>
 	)
