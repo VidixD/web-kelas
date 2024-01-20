@@ -19,18 +19,21 @@ const Footer = () => {
 						<div className=" ">
 							<h2 class="mb-4 text-sm font-semibold uppercase text-white">CREATED BY</h2>
 							<ul class="text-gray-400 dark:text-gray-400 font-medium">
-								<li class="mb-2">
-									<a href="https://www.instagram.com/vidisuryatama/?hl=id" class="hover:underline">
-										VIDI
+							<li class="mb-2">
+								<a href="https://www.instagram.com/vidisuryatama/?hl=id" class="hover:underline">
+										<i class="fas fa-code"></i> &nbsp; 
+									VIDI
 									</a>
 								</li>
 								<li class="mb-2">
 									<a href="https://www.instagram.com/dinar_lah/?hl=id" class="hover:underline">
+										<i class="fas fa-user-shield"></i> &nbsp;
 										DINAR
 									</a>
 								</li>
 								<li class="mb-2">
 									<a href="https://www.instagram.com/its_turu59/?hl=id" class="hover:underline">
+										<i class="fas fa-user-shield"></i> &nbsp;
 										TEGAR
 									</a>
 								</li>
@@ -41,6 +44,7 @@ const Footer = () => {
 							<ul class="text-gray-400 dark:text-gray-400 font-medium">
 								<li class="mb-2">
 									<a href="https://www.instagram.com/sewelaserpeelsiji/?hl=id" class="hover:underline ">
+									<i class="fab fa-instagram"></i> &nbsp;
 										Instagram
 									</a>
 								</li>
